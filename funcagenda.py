@@ -1,6 +1,6 @@
 # Proponer una solucion que simule una agenda de contactos haciendo uso de diccionarios.
 # Para el diccionario las llaves seran los nombres de los contactos y como valor estará una tupla que contenga el número telefónico y el correo electrónico.
-# Se tendrá un menú con las siguientes opciones: 1 Agregar contacto, 2 mostrar contacto, 3 buscar contacto, 4 eliminar contacto, 5 salir.
+# Se tendrá un menú con las siguientes opciones: 1 Agregar contacto, 2 mostrar contactos, 3 buscar contacto, 4 eliminar contacto, 5 salir.
 # Su propuesta deberá utilizar minimamente: Constantes y/o variables, cond selectivos, multiples, bucles, diccionarios y tuplas, uso de funciones y main.
 
 
