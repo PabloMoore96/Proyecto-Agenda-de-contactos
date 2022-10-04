@@ -35,10 +35,7 @@ def search_contact():
             print("")
 
 def delete_contact():
-    for key, values in agenda.items():
-        print(f"Nombre: {key} \nTelefono: {values[0]} \nEmail: {values[1]}")
-        print("")
-    nom=input("Ingresar contacto a eliminar: \n") #Usé la misma base que en mostrar contacto, pero acá declare la variable nom, y en este caso
-    if (nom == key):                              # la condicioné para que si es igual a key, elimine el string de "nom"
-        agenda.pop(nom)
+    show_contact()
+    nom=input("Ingresar contacto a eliminar: \n") #Usé la función mostrar contacto, pero acá declare la variable nom, y que borre la key con el mismo valor del diccionario
+    agenda.pop(nom)        
 
